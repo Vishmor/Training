@@ -3,23 +3,27 @@ body {
   font-family: arial;
 }
 nav{
-  list-style-type: none;
-  margin: 150;
-  padding: 0;
-  overflow: hidden;
-}
-}
-nav a {
+  background-colour: #d3d3d3 ;
+  height: 50px;
+  }
+nav ul{
+  height: 50px;
+  width: 750px;
+  margin: 0 auto;
+  }
+nav ul li{
+  list-style-type:none;
+  width: 150px;
+  float: left;
+  text-align: center;
+  }
+li a{
+  text-decoration: underline;
+  colour: #ffffff;
+  ligh-height: 50px;
   display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
-a {
-  color: #ffffff
-  text-decoration: underline
-  text-align: center; 
-}
-a:hover {
+  }
+li a:hover {
   colour: #000000
   text-decoration: none
 }
