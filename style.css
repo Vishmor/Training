@@ -2,31 +2,6 @@ body {
   background: #ffffff;
   font-family: arial;
 }
-nav{
-  background-colour: #d3d3d3 ;
-  height: 50px;
-  }
-nav ul{
-  height: 50px;
-  width: 750px;
-  margin: 0 auto;
-  }
-nav ul li{
-  list-style-type:none;
-  width: 150px;
-  float: left;
-  text-align: center;
-  }
-li a{
-  text-decoration: underline;
-  colour: #ffffff;
-  ligh-height: 50px;
-  display: block;
-  }
-li a:hover {
-  colour: #000000
-  text-decoration: none
-}
 h1{
   font-size: 28px; 
   font-family: arial;
