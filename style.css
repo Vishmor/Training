@@ -1,5 +1,5 @@
 body {
-  background: #efefef;
+  background: #ffffff;
   font-family: arial;
 }
 a {
@@ -9,7 +9,4 @@ a {
 a:hover {
   colour: #000000
   text-decoration: none
-}
-p{
-  border: 1px solid #4CAF50;
 }
