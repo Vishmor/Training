@@ -1,1 +1,15 @@
-test
+h1 {
+  font-size: 18px;
+}
+body {
+  background: #efefef;
+  font-family: arial;
+}
+a {
+  colour: #000000;
+  text-decoration: none
+}
+a:hover {
+  colour: #000000
+  text-decoration: underline
+}
