@@ -15,3 +15,6 @@ a:hover {
   colour: #000000
   text-decoration: none
 }
+p{
+  border: 1px solid #4CAF50;
+}
