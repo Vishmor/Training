@@ -2,6 +2,18 @@ body {
   background: #ffffff;
   font-family: arial;
 }
+nav{
+  list-style-type: none;
+  margin: 150;
+  padding: 0;
+  overflow: hidden;
+}
+}
+nav a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
 a {
   color: #ffffff
   text-decoration: underline
