@@ -3,21 +3,22 @@ body {
   font-family: arial;
 }
 a {
-  color:DodgerBlue
+  color: #ffffff
   text-decoration: underline
+  text-align: center; 
 }
 a:hover {
   colour: #000000
   text-decoration: none
 }
 h1{
-  font-size: 24px; 
+  font-size: 28px; 
   font-family: arial;
   text-align: center; 
   color:#000000;
 }
 h2{
-  font-size: 20px; 
+  font-size: 24px; 
   text-align: center;
   color:#000000;
 }
@@ -27,3 +28,4 @@ footer{
   outline-style: double;
   border: 1px solid #ffffff;
 }
+
