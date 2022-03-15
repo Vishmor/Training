@@ -1,15 +1,17 @@
 h1 {
-  font-size: 18px;
+  font-size: 24px;
+  text-align: center;
+  color:DodgerBlue;
 }
 body {
   background: #efefef;
   font-family: arial;
 }
 a {
-  colour: #000000;
-  text-decoration: none
+  color:DodgerBlue
+  text-decoration: underline
 }
 a:hover {
   colour: #000000
-  text-decoration: underline
+  text-decoration: none
 }
