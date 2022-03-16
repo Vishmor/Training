@@ -3,7 +3,7 @@
   <head>
      <meta charset="utf-8">
      <title>Winter food recipes</title>
-    <link rel="stylesheet" href="style.css"/>
+     <link rel="stylesheet" href="style.css"/>
      <style>
        * {
             padding: 0;
@@ -15,22 +15,23 @@
             margin-right: auto;
             margin-bottom: 50px;
        }
-       nav{
+       nav {
             background-colour: #d3d3d3 ;
             height: 50px;
        }
-       nav ul{
+       nav ul {
             height: 50px;
-            width: 750px;
+            padding-left: 570px;
+            width: 1300px;
             margin: 0 auto;
        }
-       nav ul li{
+       nav ul li {
             list-style-type:none;
-            width: 150px;
+            width: 100px;
             float: left;
             text-align: center;
        }
-       li a{
+       li a {
             text-decoration: underline;
             colour: #ffffff;
             line-height: 50px;
@@ -41,34 +42,59 @@
             background-colour: #d3d3d3 ;
             text-decoration: none;
        }
-       p{
+       p {
             text-align: justify;
             width: 1200px;
             padding-left: 280px;
             position: center;
        }
-  </style>
+       ul1 li {
+            text-align: left;
+            padding-left: 280px;
+       }
+       #recipe {
+              font-family: sans-serif;
+              border-collapse: collapse;
+              width: 50%;
+              align: center;
+              }
+        #recipe td, #recipe th {
+              border: 1px solid #ddd;
+              padding: 8px;
+            }
+        #recipe tr:nth-child(even){background-color: #f2f2f2;}
+        #recipe tr:hover {background-color: #ddd;}
+        #recipe th {
+              padding-top: 10px;
+              padding-bottom: 10px;
+              text-align: left;
+              }
+       </style>
   </head>
   <body>
-    <h1>Recipes to make for pals, family, neighbours or crushes</h1>
+    <h1>Recipes to make for pals, family and neighbours in winter</h1>
+    <a class="skip-link" href="#main-content">SKIP TO MAIN CONTENT</a>
+     </header>
+    <main id="main-content">
     <nav>
-        <ol>
+        <ul>
           <li><a href="index.html"><div>Home</div></a></li>
           <li><a href="spring.html">Spring</a></li>
           <li><a href="summer.html">Summer</a></li>
           <li><a href="fall.html">Fall</a></li>
           <li><a href="winter.html">Winter</a></li>
           <li><a href="contactus.html">Contact Us</a></li>
-        <ol>
+        <ul>
       </nav>
-      <h2>Hot or Cold Beet-Fennel Soup</h2>
-      <p>We love a hearty meal that can warm us up when it’s snowy just as much as we crave light and fresh eats on sticky summer nights. But few recipes can satisfy in all<br>
-        seasons like this beet and fennel soup from Dorie Greenspan’s cookbook Everyday Dorie. Made from a blend of humble vegetables and herbs, the versatile dish can be served<br>
-        hot or cold, depending on where the weather (or your mood) guides you. Be sure to share it — that striking red hue demands to be seen by dinner guests, family and co-workers<br>
+      <h2 padding-left="500px">Hot or Cold Beet-Fennel Soup</h2>
+      <img src="creamy-celeriac-soup.webp" alt="">     
+      <p padding-top="100px">We love a hearty meal that can warm us up when it’s snowy just as much as we crave light and fresh eats on sticky summer nights. But few recipes can satisfy in all
+        seasons like this beet and fennel soup from Dorie Greenspan’s cookbook Everyday Dorie. Made from a blend of humble vegetables and herbs, the versatile dish can be served
+        hot or cold, depending on where the weather (or your mood) guides you. Be sure to share it — that striking red hue demands to be seen by dinner guests, family and co-workers
         alike.
       </p>
-      <h2>Ingredients</h2>
-      <ol>
+      <h3>Ingredients</h3>
+      <ul1>
         <li>1 to 2 tbsp olive oil</li>
         <li>1 medium fennel bulb, trimmed, cored and cut into chunks</li>
         <li>1 large red or sweet onion, such as Vidalia, cut into chunks</li>
@@ -77,10 +103,10 @@
         <li>Fine sea salt and freshly ground pepper</li>
         <li>6 cups chicken or vegetable broth</li>
         <li>5 medium red beets, trimmed, peeled and cut into chunks</li>
-      </ol>  
-      <p><a href="https://www.cbc.ca/life/food/hot-or-cold-beet-fennel-soup-a-blend-of-humble-ingredients-yet-as-striking-as-it-is-versatile-1.5068123">Visit this page for the preparation instructions</a></p>
+      </ul1>  
+      <p text-align="left" padding-top="10px"><a href="https://www.cbc.ca/life/food/hot-or-cold-beet-fennel-soup-a-blend-of-humble-ingredients-yet-as-striking-as-it-is-versatile-1.5068123">Visit this page for the preparation instructions</a></p>
     <h3>More fall recipes</h3>
-      <table>
+      <table id="recipe" padding-left="280px";>
       <tr>
         <th>Name</th>
         <th>Link to recipe</th>
@@ -99,8 +125,8 @@
       </tr>
     </table>
     <footer>
-      <p>Copied from CBC Life</p>
-      <p>Toronto, Canada</p>
+      <p1>Copied from CBC Life</p>
+      <p1>Toronto, Canada</p>
     </footer>
   </body>
 </html>
