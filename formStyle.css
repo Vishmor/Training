@@ -16,9 +16,9 @@ h2{
 }
 .submission-form{
   max-width: 500px;
-  margin: auto;
+  margin: 2rem auto;
   border: 2px  solid #ffffff;
-  padding: 2px;
+  padding: 2rem;
     label{
       display: block;
       padding:5rem 0;
