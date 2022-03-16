@@ -15,22 +15,23 @@
             margin-right: auto;
             margin-bottom: 50px;
        }
-       nav{
+       nav {
             background-colour: #d3d3d3 ;
             height: 50px;
        }
-       nav ul{
+       nav ul {
             height: 50px;
-            width: 750px;
+            padding-left: 570px;
+            width: 1300px;
             margin: 0 auto;
        }
-       nav ul li{
+       nav ul li {
             list-style-type:none;
-            width: 150px;
+            width: 100px;
             float: left;
             text-align: center;
        }
-       li a{
+       li a {
             text-decoration: underline;
             colour: #ffffff;
             line-height: 50px;
@@ -41,15 +42,40 @@
             background-colour: #d3d3d3 ;
             text-decoration: none;
        }
-       p{
+       p {
             text-align: justify;
             width: 1200px;
             padding-left: 280px;
             position: center;
        }
+       ul1 li {
+            text-align: left;
+            padding-left: 280px;
+       }
+       #recipe {
+              font-family: sans-serif;
+              border-collapse: collapse;
+              width: 50%;
+              align: center;
+              }
+        #recipe td, #recipe th {
+              border: 1px solid #ddd;
+              padding: 8px;
+            }
+        #recipe tr:nth-child(even){background-color: #f2f2f2;}
+        #recipe tr:hover {background-color: #ddd;}
+        #recipe th {
+              padding-top: 10px;
+              padding-bottom: 10px;
+              text-align: left;
+              }
+       </style>
   </head>
   <body>
     <h1>Symbolic and vibrant dishes fit for special celebration of summer</h1>
+    <a class="skip-link" href="#main-content">SKIP TO MAIN CONTENT</a>
+     </header>
+    <main id="main-content">
        <nav>
         <ul>
           <li><a href="index.html"><div>Home</div></a></li>
@@ -60,14 +86,12 @@
           <li><a href="contactus.html">Contact Us</a></li>
         <ul>
       </nav>
-       <h2>Flourless Lemon Ricotta Cake with Almonds</h2>
-      <p>Almond flour and almond meal both work well in this recipe. Almond flour is made from blanched and peeled raw almonds, and has a very pale, unified colour.<br> 
-        Almond meal is made from unpeeled raw almonds, which makes a speckle-coloured flour that gives baked goods a darker appearance. You can make your own using a <br>
-        high-power food processor or blender: working in small batches, blitz almonds until a fine dust is achieved (stop before it turns to nut butter).<br>
-        Sift into a container and return any almond bits back to the food processor to re-blitz. Store in the freezer, in an airtight container, for up to three months.
+       <h2 padding-left="500px">Flourless Lemon Ricotta Cake with Almonds</h2>
+       <img src="flourless-lemon-ricotta-cake.webp" alt="Risotto in a dish">  
+      <p padding-top="100px">Almond flour and almond meal both work well in this recipe. Almond flour is made from blanched and peeled raw almonds, and has a very pale, unified colour.Almond meal is made from unpeeled raw almonds, which makes a speckle-coloured flour that gives baked goods a darker appearance. You can make your own using a high-power food processor or blender: working in small batches, blitz almonds until a fine dust is achieved (stop before it turns to nut butter).Sift into a container and return any almond bits back to the food processor to re-blitz. Store in the freezer, in an airtight container, for up to three months.
       </p>
-      <h2>Ingredients</h2>
-      <ol>
+      <h3>Ingredients</h3>
+      <ul1>
         <li>½ cup butter, softened</li>
         <li>1 ⅓ cups icing sugar, divided</li>
         <li>2 tbsp lemon extract*</li>
@@ -76,10 +100,10 @@
         <li>2 ½ cups almond meal or almond flour</li>
         <li>1 ¼ cups whole milk smooth ricotta</li>
         <li>½ cup sliced natural almonds</li>
-      </ol>  
-      <p><a href="https://www.cbc.ca/life/food/flourless-lemon-ricotta-cake-with-almonds-1.5567882">Visit this page for the preparation instructions</a></p>
+      </ul1>  
+      <p text-align="left" padding-top="10px"><a href="https://www.cbc.ca/life/food/flourless-lemon-ricotta-cake-with-almonds-1.5567882">Click this link for the preparation instructions</a></p>
     <h3>More summer recipes</h3>
-      <table>
+      <table id="recipe" padding-left="280px";>
       <tr>
         <th>Name</th>
         <th>Link to recipe</th>
@@ -102,8 +126,8 @@
       </tr>
      </table>
     <footer>
-      <p>Copied from CBC Life</p>
-      <p>Toronto, Canada</p>
+      <p1>Copied from CBC Life</p>
+      <p1>Toronto, Canada</p>
     </footer>
   </body>
 </html>
