@@ -14,7 +14,7 @@ body {
       display:  block;
       width: 100%;
   }
-  #sendbtn{
+  #sendBtn{
     border: 0;
     background: #D3D3D3;
     padding: 2px;
@@ -26,4 +26,10 @@ body {
       colour: #a9a9a9;
       background-colour: #d3d3d3; 
     }
+}
+footer{
+  text-align: center;
+  margin: 70px; 
+  outline-style: double;
+  border: 1px solid #ffffff;
 }
