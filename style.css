@@ -18,6 +18,8 @@ h2{
 h3{
   font-size: 20px;
   padding-left: 280px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   text-align: left;
   color:#000000;
 }
@@ -27,4 +29,8 @@ footer{
   outline-style: double;
   border: 1px solid #ffffff;
 }
-
+table{
+  padding-left: 500px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
