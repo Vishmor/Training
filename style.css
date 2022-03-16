@@ -23,6 +23,33 @@ h3{
   text-align: left;
   color:#000000;
 }
+.submission-form{
+  max-width: 500px;
+  margin: auto;
+  border: 2px  solid #ffffff;
+  padding: 2px;
+    label{
+      display: block;
+      padding:5rem 0;
+  }
+    input, textarea{
+      display:  block;
+      width: 100%;
+  }
+  #sendbtn{
+    border: 0;
+    background: #D3D3D3;
+    padding: 2px;
+    margin: 1rem 0;
+    width:  auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+      colour: #a9a9a9;
+      background-colour: #d3d3d3; 
+    }
+  }
+}
 footer{
   text-align: center;
   margin: 70px; 
