@@ -109,7 +109,7 @@ h2{
           <li><a href="winter.html">Winter</a></li>
         <ul>
       </nav>
-    <div class="submission-form">
+    <div class="submission-form" id="subForm">
       <form action="#">
         <label for="firstName">First Name:</label>
         <input type="text" id="firstName" name="firstName" value="">
@@ -120,6 +120,7 @@ h2{
         <label for="comment">Comment:</label>
         <textarea id="comment" name="comment"></textarea>
         <input type="submit" value="Submit" id="sendBtn">
+        <p id="successMsg"></p>
       </form> 
      </div>
     </main>
@@ -127,5 +128,15 @@ h2{
       <p>Copied from CBC Life</p>
       <p>Toronto, Canada</p>
     </footer>
+    <script>
+      var myform = document.getElementById('subForm')
+      var successM = "Thank you for your feedback."
+      var successText = fName +"," + successM 
+
+      myform.addEventListener('#sendBtn',function(event){
+          event.preventDefault()
+          document.getElementById('successMsg').innerHTML= successText;
+      })
+  </script>
   </body>
 </html>
