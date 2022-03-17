@@ -23,10 +23,18 @@ h3{
   text-align: left;
   color:#000000;
 }
+h5{
+  font-size: 14px; 
+  text-align: auto;
+}
+h5{
+  font-size: 10px; 
+  text-align: auto;
+}
 footer{
-  width: 100%;
+  width: 1700px;
   text-align: justify;
-  margin: 70%;
+  margin: 70px;
   outline-style: double;
   border: 1px solid #ffffff;
 }
