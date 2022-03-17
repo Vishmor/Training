@@ -34,3 +34,7 @@ table{
   padding-bottom: 10px;
   padding-top: 10px;
 }
+.skip-link {
+   position: absolute;
+   left: -10000px;
+}
