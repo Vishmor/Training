@@ -39,3 +39,6 @@ table{
    position: absolute;
    left: -10000px;
 }
+a:hover {
+  color: blue;
+}
