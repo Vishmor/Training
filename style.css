@@ -42,3 +42,11 @@ table{
 a:hover {
   color: blue;
 }
+p{
+  text-align: justify;
+  width: 1200px;
+  padding-left: 280px;
+  position: center;
+  margin-bottom: 32px;
+  font-size: 20px;
+ }
