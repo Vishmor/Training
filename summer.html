@@ -16,7 +16,6 @@
             margin-bottom: 50px;
        }
        nav {
-            background-colour: #d3d3d3 ;
             height: 50px;
        }
        nav ul {
@@ -33,14 +32,13 @@
        }
        li a {
             text-decoration: underline;
-            colour: #ffffff;
             line-height: 50px;
             display: block;
        }
-       li a:hover {
-            colour: #a9a9a9
-            background-colour: #d3d3d3 ;
+      li a:hover {
             text-decoration: none;
+            background-color: #d3d3d3;
+            padding:0px;
        }
        p {
             text-align: justify;
@@ -72,13 +70,17 @@
        table {
               margin: 50px auto;
                }
+              .skip-link {
+   position: absolute;
+   left: -10000px;
+}
        </style>
   </head>
-  <body>
-    <h1>Symbolic and vibrant treats fit for special celebration of summer</h1>
-    <a class="skip-link" href="#main-content">SKIP TO MAIN CONTENT</a>
+  <body> <header>
+    <a class="skip-link" href="#main-content" class="skip-link">SKIP TO MAIN CONTENT</a>
      </header>
     <main id="main-content">
+    <h1>Symbolic and vibrant treats fit for special celebration of summer</h1>
        <nav>
         <ul>
           <li><a href="index.html"><div>Home</div></a></li>
