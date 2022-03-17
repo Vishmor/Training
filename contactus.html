@@ -132,14 +132,12 @@ h2{
     <script>
       var myform = document.getElementById('subForm')
       var successM = "Thank you for your feedback."
-      var successText = fName +"," + successM 
-
-      myform.addEventListener('submit',function(event){
-          event.preventDefault()
-          var fName = document.getElementById('firstName').value
-          console.log('Test')
-          console.log(successText)
-          document.getElementById('successMsg').innerHTML= successText;
+          myform.addEventListener('submit',function(event){
+              event.preventDefault()
+              var fName = document.getElementById('firstName').value
+              console.log('Test')
+              var successText = fName +"," + successM 
+              document.getElementById('successMsg').innerHTML= successText;
       })
   </script>
   </body>
