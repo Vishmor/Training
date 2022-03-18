@@ -13,45 +13,7 @@
        body {
           font-family: sans-serif;
 }
-h1{
-  font-size: 28px; 
-  text-align: center; 
-  color:#000000;
-  padding-top: 10px;
-}
-h2{
-  font-size: 20px; 
-  padding-left: 500px;
-  padding-bottom: 10px;
-  text-align: left;
-}
-       nav {
-            height: 50px;
-       }
-       nav ul {
-            height: 50px;
-            padding-left: 570px;
-            width: 1300px;
-            margin: 0 auto;
-       }
-       nav ul li {
-            list-style-type:none;
-            width: 150px;
-            float: left;
-            text-align: center;
-       }
-       li a {
-            text-decoration: underline;
-            padding: 8px;
-            line-height: 50px;
-            display: block;
-       }
-        li a:hover {
-            text-decoration: none;
-            background-color: #d3d3d3;
-            padding:0px;
-       }
-       input[type=text], textarea {
+        input[type=text], textarea {
          width: 100%;
          padding: 12px;
          border: 1px solid #ffffff;
@@ -97,7 +59,7 @@ h2{
           left: -10000px;
          }
          .message{
-          color: red;
+          color: #0000FF;
          }
 </style>
   </head>
@@ -131,9 +93,9 @@ h2{
      </form> 
      </div>
     </main>
-    <footer>
+     <footer>
       <p>Copied from CBC Life - Toronto, Canada</p>
-    </footer>
+   </footer>
     <script>
       var myform = document.getElementById('subForm')
       var successM = "Thank you for your feedback."
@@ -142,7 +104,7 @@ h2{
               var fName = document.getElementById('firstName').value
               var lName = document.getElementById('lastName').value
               console.log('Test')
-              var successText = fName + ' ' + lName + "," + successM 
+              var successText = fName + ' ' + lName + successM 
               document.getElementById('successMsg').innerHTML= successText;
       })
   </script>
