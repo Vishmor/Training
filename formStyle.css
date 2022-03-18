@@ -82,8 +82,7 @@ margin: center
      nav li {
             list-style-type: none;
             display: inline-block;
-            text-aligh: center;
-            margin-left: 200px;
+            margin: 5 5px;
        }
    li a {
             text-decoration: underline;
