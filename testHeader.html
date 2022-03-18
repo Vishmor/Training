@@ -10,47 +10,6 @@
             padding: 0;
             margin: 0;
        }
-       img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 50px;
-       }
-       nav {
-            height: 50px;
-       }
-       nav ul {
-            height: 50px;
-            padding-left: 570px;
-            width: 1300px;
-            margin: 0 auto;
-       }
-       nav ul li {
-            list-style-type:none;
-            width: 100px;
-            float: left;
-            text-align: center;
-       }
-       li a {
-            text-decoration: underline;
-            line-height: 50px;
-            display: block;
-       }
-       li a:hover {
-            text-decoration: none;
-            background-color: #d3d3d3;
-            padding:0px;
-       }
-       p {
-            text-align: justify;
-            width: 1200px;
-            padding-left: 280px;
-            position: center;
-       }
-       ul1 li {
-            text-align: left;
-            padding-left: 280px;
-       }
        #recipe {
               font-family: sans-serif;
               border-collapse: collapse;
@@ -67,13 +26,22 @@
               padding-bottom: 10px;
               text-align: left;
               }
-       table {
-              margin: 50px auto;
-               }
-       .skip-link {
-             position: absolute;
-             left: -10000px;
-              }
+        div.Description{
+               padding: 10px;
+               width: 80%;
+               height: 20%;
+               margin-right: 20px;
+               margin-left: 100px;
+               text-align: auto; 
+         }
+        div.fullLink{
+              padding: 10px;
+              width: 80%;
+              height: 20%;
+              margin-right: 50px;
+              margin-left: 50px;
+              text-align: auto; 
+         }
         </style>
   </head>
   <body>
@@ -93,10 +61,10 @@
           <li><a href="contactus.html">Contact Us</a></li>
         <ul>
       </nav>
-      <h2 padding-left="500px">Rhubarb shrub for an impressive martini</h2>
+      <div class="heading2"><h2>Rhubarb shrub for an impressive martini</h2>
       <img src="rhubarb-shrub.webp" alt=""> 
-      <p padding-top="100px"> Used in the past as a method of preserving fruit, a shrub is just a fruit syrup made with vinegar instead of water. This tangy rhubarb shrub can be added to mineral water, sodas or cocktails for a refreshing tart drink.</p>
-         <p>For a refreshing soda, add 1 oz shrub to tall glass. Fill with ice and top with sparkling soda water. Spike with vodka, gin or rum as you wish, or see below for the proportions for a rhubarb shrub martini.</p>
+      <div class="Description"> Used in the past as a method of preserving fruit, a shrub is just a fruit syrup made with vinegar instead of water. This tangy rhubarb shrub can be added to mineral water, sodas or cocktails for a refreshing tart drink.
+         For a refreshing soda, add 1 oz shrub to tall glass. Fill with ice and top with sparkling soda water. Spike with vodka, gin or rum as you wish, or see below for the proportions for a rhubarb shrub martini.</div>
       <h3>Ingredients</h3>
       <ul1>
         <li>3 cups chopped rhubarb stalks</li>
@@ -109,9 +77,9 @@
         <li>½ oz sparkling mineral water or soda water</li>
         <li>Rhubarb stalk, for garnishing</li>
       </ul1>  
-      <p text-align="left" padding-top="10px"><a href="https://www.cbc.ca/life/food/rhubarb-shrub-and-rhubarb-shrub-martini-1.5034629">Click this link for the preparation instructions</a></p>
+      <div class="fullLink"><a href="https://www.cbc.ca/life/food/rhubarb-shrub-and-rhubarb-shrub-martini-1.5034629">Click this link for the preparation instructions</a></div>
     <h3>More spring recipes</h3>
-      <table id="recipe" padding-left="280px";>
+      <table id="recipe" padding-left="10px";>
       <tr>
         <th>Name</th>
         <th>Link to recipe</th>
@@ -130,8 +98,7 @@
       </tr>
     </table>
     <footer>
-      <p>Copied from CBC Life<br>
-      Toronto, Canada</p>
+      <p>Copied from CBC Life - Toronto, Canada</p>
     </footer>
   </body>
 </html>
