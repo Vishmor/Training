@@ -5,57 +5,17 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Spring food recipes</title>
     <link rel="stylesheet" href="style.css"/>
-     <style>
+    <style>
        * {
             padding: 0;
             margin: 0;
-       }
-       img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 50px;
-       }
-       nav {
-            height: 50px;
-       }
-       nav ul {
-            height: 50px;
-            padding-left: 570px;
-            width: 1300px;
-            margin: 0 auto;
-       }
-       nav ul li {
-            list-style-type:none;
-            width: 100px;
-            float: left;
-            text-align: center;
-       }
-       li a {
-            text-decoration: underline;
-            line-height: 50px;
-            display: block;
-       }
-       li a:hover {
-            text-decoration: none;
-            background-color: #d3d3d3;
-            padding:0px;
-       }
-       p {
-            text-align: justify;
-            width: 1200px;
-            padding-left: 280px;
-            position: center;
-       }
-       ul1 li {
-            text-align: left;
-            padding-left: 280px;
        }
        #recipe {
               font-family: sans-serif;
               border-collapse: collapse;
               width: 50%;
               align: center;
+              margine-top: 0px;
               }
         #recipe td, #recipe th {
               border: 1px solid #ddd;
@@ -67,25 +27,33 @@
               padding-bottom: 10px;
               text-align: left;
               }
-       table {
-              margin: 50px auto;
-               }
-       .skip-link {
-             position: absolute;
-             left: -10000px;
-              }
+        div.Description{
+               padding: 10px;
+               width: 80%;
+               height: 20%;
+               margin-right: 20px;
+               margin-left: 100px;
+               text-align: auto; 
+         }
+        div.fullLink{
+              padding: 10px;
+              width: 80%;
+              height: 20%;
+              margin-right: 50px;
+              margin-left: 30%;
+              text-align: auto; 
+         }
         </style>
   </head>
   <body>
-     <header>
-    <a class="skip-link" href="#main-content" class="skip-link">SKIP TO MAIN CONTENT</a>
-     </header>
-    <main id="main-content">
-    <h1>What to drink in Spring</h1>
+    <header>
+     <a href="#main-content" class="skip-link" alt="skip to main content">SKIP TO MAIN CONTENT</a>
+  </header>
+    <h1 padding-bottom="100px" id="main-content">What to drink in Spring</h1>
     <main id="main-content">
        <nav>
         <ul>
-          <li><a href="index.html"><div>Home</div></a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="spring.html">Spring</a></li>
           <li><a href="summer.html">Summer</a></li>
           <li><a href="fall.html">Fall</a></li>
@@ -93,12 +61,14 @@
           <li><a href="contactus.html">Contact Us</a></li>
         <ul>
       </nav>
-      <h2 padding-left="500px">Rhubarb shrub for an impressive martini</h2>
+          <div class="heading2"><h2>Rhubarb shrub for an impressive martini</h2></div>
       <img src="rhubarb-shrub.webp" alt=""> 
-      <p padding-top="100px"> Used in the past as a method of preserving fruit, a shrub is just a fruit syrup made with vinegar instead of water. This tangy rhubarb shrub can be added to mineral water, sodas or cocktails for a refreshing tart drink.</p>
-         <p>For a refreshing soda, add 1 oz shrub to tall glass. Fill with ice and top with sparkling soda water. Spike with vodka, gin or rum as you wish, or see below for the proportions for a rhubarb shrub martini.</p>
+      <div class="Description">Used in the past as a method of preserving fruit, a shrub is just a fruit syrup made with vinegar instead of water. This tangy rhubarb shrub can be added to mineral water, sodas or cocktails for a refreshing tart drink.
+        <br>
+        <br>
+        For a refreshing soda, add 1 oz shrub to tall glass. Fill with ice and top with sparkling soda water. Spike with vodka, gin or rum as you wish, or see below for the proportions for a rhubarb shrub martini.</div>
       <h3>Ingredients</h3>
-      <ul1>
+      <div class="ing"><ul>
         <li>3 cups chopped rhubarb stalks</li>
         <li>1 ½ cups sugar</li>
         <li>1 ½ cups apple cider vinegar</li>
@@ -108,10 +78,11 @@
         <li>2-3 ice cubes</li>
         <li>½ oz sparkling mineral water or soda water</li>
         <li>Rhubarb stalk, for garnishing</li>
-      </ul1>  
-      <p text-align="left" padding-top="10px"><a href="https://www.cbc.ca/life/food/rhubarb-shrub-and-rhubarb-shrub-martini-1.5034629">Click this link for the preparation instructions</a></p>
-    <h3>More spring recipes</h3>
-      <table id="recipe" padding-left="280px";>
+        </ul></div>
+        <br>
+      <div class="fullLink"><a href="https://www.cbc.ca/life/food/rhubarb-shrub-and-rhubarb-shrub-martini-1.5034629">Click this link for the preparation instructions</a></div>
+    <h4>More spring recipes</h4>
+      <table id="recipe" padding-left="10px";>
       <tr>
         <th>Name</th>
         <th>Link to recipe</th>
@@ -130,8 +101,7 @@
       </tr>
     </table>
     <footer>
-      <p>Copied from CBC Life<br>
-      Toronto, Canada</p>
+      <p>Copied from CBC Life - Toronto, Canada</p>
     </footer>
   </body>
 </html>
