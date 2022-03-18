@@ -8,13 +8,6 @@ h1{
   color:#000000;
   padding-top: 10px;
 }
-h2{
-  padding-top: 10px;
-  font-size: 22px; 
-  color:#000000;
-  display: block;
-  margin-left: 0px;
-}
 div.heading2{
 margin-left: 30%;
   font-size: 22px; 
@@ -75,7 +68,8 @@ margin: center
  nav ul {
             height: 50px;
             width: 600px
-            margin: 0 auto;
+            margin-left: 0 auto;
+   
        }
      nav li {
             list-style-type: none;
