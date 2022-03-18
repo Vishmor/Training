@@ -7,6 +7,7 @@ h1{
   text-align: center; 
   color:#000000;
   padding-top: 10px;
+  text-align: auto; 
 }
 h3{
   font-size: 18px;
@@ -58,6 +59,7 @@ div.heading2{
   color:#000000;
   display: block;
   font-size: 22px;
+  text-align: auto; 
 }
  nav {
             height: 50px;
