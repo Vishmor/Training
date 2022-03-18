@@ -10,17 +10,7 @@ header{
   height: 10vh
   color: white;
 }
-footer{
-  position: absolute;
-  background-color: #000;
-  height: 15vh  
-  color: white;
-  Bottom: 0;
-}
-footer p{
-  position: absolute;
-  left: 50%;
-}
+
 header h1{
   position: absolute;
   left: 50%;
