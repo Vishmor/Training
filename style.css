@@ -55,7 +55,7 @@ footer p{
 }
 a:hover {
   color: blue;
-}
+  }
 p {
   width: 80%;
   height: 20%;
@@ -108,7 +108,7 @@ div.ing{
 
        li a:hover {
             text-decoration: none;
-            background-color: #d3d3d3;
+            text-decoration-thickness: 3px;
        }
        table {
               margin: 50px auto;
