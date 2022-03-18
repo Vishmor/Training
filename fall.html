@@ -5,58 +5,17 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Fall food recipes</title>
     <link rel="stylesheet" href="style.css"/>
-     <style>
+   <style>
        * {
             padding: 0;
             margin: 0;
-       }
-       img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 50px;
-       }
-       nav {
-            height: 50px;
-       }
-       nav ul {
-            height: 50px;
-            padding-left: 570px;
-            width: 1300px;
-            margin: 0 auto;
-       }
-       nav ul li {
-            list-style-type:none;
-            width: 100px;
-            float: left;
-            text-align: center;
-       }
-       li a {
-            text-decoration: underline;
-            line-height: 50px;
-            display: block;
-       }
-       li a:hover {
-            text-decoration: none;
-            background-color: #d3d3d3;
-            padding:0px;
-       }
-       p {
-            text-align: justify;
-            width: 1200px;
-            padding-left: 280px;
-            position: center;
-            margin-bottom: 32px;
-       }
-       ul1 li {
-            text-align: left;
-            padding-left: 280px;
        }
        #recipe {
               font-family: sans-serif;
               border-collapse: collapse;
               width: 50%;
               align: center;
+              margine-top: 0px;
               }
         #recipe td, #recipe th {
               border: 1px solid #ddd;
@@ -68,21 +27,32 @@
               padding-bottom: 10px;
               text-align: left;
               }
-       .skip-link {
-   position: absolute;
-   left: -10000px;
-}
-       </style>
+        div.Description{
+               padding: 10px;
+               width: 80%;
+               height: 20%;
+               margin-right: 20px;
+               margin-left: 100px;
+               text-align: auto; 
+         }
+        div.fullLink{
+              padding: 10px;
+              width: 80%;
+              height: 20%;
+              margin-right: 50px;
+              margin-left: 30%;
+              text-align: auto; 
+         }
+        </style>
   </head>
   <body>
-      <header>
-    <a class="skip-link" href="#main-content" class="skip-link">SKIP TO MAIN CONTENT</a>
-     </header>
-    <main id="main-content">
-    <h1>Hot and hearty vegetarian meal ideas for fall</h1>
+    <header>
+     <a href="#main-content" class="skip-link" alt="skip to main content">SKIP TO MAIN CONTENT</a>
+  </header>
+    <h1 padding-bottom="100px" id="main-content">Hot and hearty vegetarian meal ideas for fall</h1>
       <nav>
         <ul>
-          <li><a href="index.html"><div>Home</div></a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="spring.html">Spring</a></li>
           <li><a href="summer.html">Summer</a></li>
           <li><a href="fall.html">Fall</a></li>
@@ -90,14 +60,15 @@
           <li><a href="contactus.html">Contact Us</a></li>
         <ul>
       </nav>
-      <h2 padding-left="500px">Low-Prep, High-Flavour Porcini Risotto</h2>
+      <div class="heading2"><h2>Low-Prep, High-Flavour Porcini Risotto</h2></div>
       <img src="risotto.webp" alt="Risotto in a dish">
-      <p padding-top="100px">The slow stirring of risotto is what makes a lot of people think the dish is complicated, or lengthy, to make. But the cooking, just a method of slowly adding liquid to rice as it simmers, only takes 18 minutes. It’s the prep and ingredients that’ll slow you down.
-      </p>
-      <p>The hurdle is the expectation of using homemade chicken stock. But if you’re bumping it up with other strong flavour, you can sidestep this: don't make stock, don't chop vegetables, a fistful of dried porcini mushrooms will give Arborio rice all the mushroom flavour you need. 
-      </p>
+      
+      <div class="Description"> The slow stirring of risotto is what makes a lot of people think the dish is complicated, or lengthy, to make. But the cooking, just a method of slowly adding liquid to rice as it simmers, only takes 18 minutes. It’s the prep and ingredients that’ll slow you down.
+      <br>
+      <br>
+      The hurdle is the expectation of using homemade chicken stock. But if you’re bumping it up with other strong flavour, you can sidestep this: don't make stock, don't chop vegetables, a fistful of dried porcini mushrooms will give Arborio rice all the mushroom flavour you need.</div>
       <h3>Ingredients</h3>
-      <ul1>
+      <div class="ing"><ul>
         <li>2 loose cups dried porcini mushrooms (often sold in 1 oz. packages that are about 1 cup each)</li>
         <li>6 cups chicken or vegetable stock, hot</li>
         <li>3 tbsp butter, unsalted</li>
@@ -105,10 +76,10 @@
         <li>2 cups Arborio rice</li>
         <li>1 cup grated Parmesan cheese</li>
         <li>Salt and pepper to taste</li>
-      </ul>  
-      <p text-align="left" padding-top="10px"><a href="https://www.cbc.ca/life/food/recipe-hack-low-prep-high-flavour-porcini-risotto-1.5034107">Click this link for the preparation instructions</a></p>
-    <h3>More fall recipes</h3>
-      <table id="recipe" padding-left="280px";>
+      </ul></div> 
+      <div class="fullLink"><a href="https://www.cbc.ca/life/food/recipe-hack-low-prep-high-flavour-porcini-risotto-1.5034107">Click this link for the preparation instructions</a></div>
+    <h4>More spring recipes</h4>
+      <table id="recipe" padding-left="10px";>
       <tr>
         <th>Name</th>
         <th>Link to recipe</th>
@@ -127,8 +98,7 @@
       </tr>
     </table>
     <footer>
-      <p>Copied from CBC Life<br>
-      Toronto, Canada</p>
+      <p>Copied from CBC Life - Toronto, Canada</p>
     </footer>
   </body>
 </html>
