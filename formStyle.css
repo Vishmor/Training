@@ -37,7 +37,7 @@ footer{
   border: 1px solid #ffffff;
 }
 footer p{
-  text-align: center;
+  text-align: auto;
 }
 table{
   padding-left: 500px;
