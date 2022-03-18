@@ -10,52 +10,12 @@
             padding: 0;
             margin: 0;
        }
-       img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 50px;
-       }
-       nav {
-            height: 50px;
-       }
-       nav ul {
-            height: 50px;
-            padding-left: 570px;
-            width: 1300px;
-            margin: 0 auto;
-       }
-       nav ul li {
-            list-style-type:none;
-            width: 100px;
-            float: left;
-            text-align: center;
-       }
-       li a {
-            text-decoration: underline;
-            line-height: 50px;
-            display: block;
-       }
-      li a:hover {
-            text-decoration: none;
-            background-color: #d3d3d3;
-            padding:0px;
-       }
-       p {
-            text-align: justify;
-            width: 1200px;
-            padding-left: 280px;
-            position: center;
-       }
-       ul1 li {
-            text-align: left;
-            padding-left: 280px;
-       }
        #recipe {
               font-family: sans-serif;
               border-collapse: collapse;
               width: 50%;
               align: center;
+              margine-top: 0px;
               }
         #recipe td, #recipe th {
               border: 1px solid #ddd;
@@ -67,23 +27,32 @@
               padding-bottom: 10px;
               text-align: left;
               }
-       table {
-              margin: 50px auto;
-               }
-        .skip-link {
-              position: absolute;
-              left: -10000px;
-              }
-       </style>
+        div.Description{
+               padding: 10px;
+               width: 80%;
+               height: 20%;
+               margin-right: 20px;
+               margin-left: 100px;
+               text-align: auto; 
+         }
+        div.fullLink{
+              padding: 10px;
+              width: 80%;
+              height: 20%;
+              margin-right: 50px;
+              margin-left: 30%;
+              text-align: auto; 
+         }
+        </style>
   </head>
-  <body> <header>
-    <a class="skip-link" href="#main-content" class="skip-link">SKIP TO MAIN CONTENT</a>
-     </header>
-    <main id="main-content">
-    <h1>Symbolic and vibrant treats fit for special celebration of summer</h1>
+  <body>
+    <header>
+     <a href="#main-content" class="skip-link" alt="skip to main content">SKIP TO MAIN CONTENT</a>
+  </header>
+    <h1 padding-bottom="100px" id="main-content">Symbolic and vibrant treats fit for special celebration of summer</h1>
        <nav>
         <ul>
-          <li><a href="index.html"><div>Home</div></a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="spring.html">Spring</a></li>
           <li><a href="summer.html">Summer</a></li>
           <li><a href="fall.html">Fall</a></li>
@@ -91,12 +60,11 @@
           <li><a href="contactus.html">Contact Us</a></li>
         <ul>
       </nav>
-       <h2 padding-left="500px">Flourless Lemon Ricotta Cake with Almonds</h2>
+       <div class="heading2"><h2>Flourless Lemon Ricotta Cake with Almonds</h2></div>
        <img src="flourless-lemon-ricotta-cake.webp" alt="Risotto in a dish">  
-      <p padding-top="100px">Almond flour and almond meal both work well in this recipe. Almond flour is made from blanched and peeled raw almonds, and has a very pale, unified colour.Almond meal is made from unpeeled raw almonds, which makes a speckle-coloured flour that gives baked goods a darker appearance. You can make your own using a high-power food processor or blender: working in small batches, blitz almonds until a fine dust is achieved (stop before it turns to nut butter).Sift into a container and return any almond bits back to the food processor to re-blitz. Store in the freezer, in an airtight container, for up to three months.
-      </p>
+      <div class="Description">Almond flour and almond meal both work well in this recipe. Almond flour is made from blanched and peeled raw almonds, and has a very pale, unified colour.Almond meal is made from unpeeled raw almonds, which makes a speckle-coloured flour that gives baked goods a darker appearance. You can make your own using a high-power food processor or blender: working in small batches, blitz almonds until a fine dust is achieved (stop before it turns to nut butter).Sift into a container and return any almond bits back to the food processor to re-blitz. Store in the freezer, in an airtight container, for up to three months.</div>
       <h3>Ingredients</h3>
-      <ul1>
+      <div class="ing"><ul>
         <li>½ cup butter, softened</li>
         <li>1 ⅓ cups icing sugar, divided</li>
         <li>2 tbsp lemon extract*</li>
@@ -105,10 +73,11 @@
         <li>2 ½ cups almond meal or almond flour</li>
         <li>1 ¼ cups whole milk smooth ricotta</li>
         <li>½ cup sliced natural almonds</li>
-      </ul1>  
-      <p text-align="left" padding-top="10px"><a href="https://www.cbc.ca/life/food/flourless-lemon-ricotta-cake-with-almonds-1.5567882">Click this link for the preparation instructions</a></p>
-    <h3>More summer recipes</h3>
-      <table id="recipe" padding-left="280px";>
+        </ul></div>
+        <br>
+      <div class="fullLink"><a href="https://www.cbc.ca/life/food/flourless-lemon-ricotta-cake-with-almonds-1.5567882">For full recipe click on this link.</a></div>
+    <h4>More summer recipes</h4>
+      <table id="recipe" padding-left="10px";>
       <tr>
         <th>Name</th>
         <th>Link to recipe</th>
