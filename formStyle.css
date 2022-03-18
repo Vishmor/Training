@@ -32,14 +32,12 @@ h5{
   text-align: auto;
 }
 footer{
-  width: 100%;
   margin: 70px;
   outline-style: double;
   border: 1px solid #ffffff;
 }
 footer p{
   text-align: center;
-  width: 100%
 }
 table{
   padding-left: 500px;
