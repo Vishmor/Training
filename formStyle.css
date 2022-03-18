@@ -71,7 +71,7 @@ margin: center
             margin-left: 0 auto;
    
        }
-     nav li {
+     nav ul li {
             list-style-type: none;
             display: inline-block;
             margin: 5 5px;
