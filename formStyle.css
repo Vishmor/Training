@@ -61,6 +61,12 @@ div.heading2{
   font-size: 22px;
   text-align: auto; 
 }
+div.ing{
+  margin-left: 50%;
+  margin: center
+  display: block;
+  text-align: auto;
+}
  nav {
             height: 50px;
      }
