@@ -1,17 +1,18 @@
 body {
   font-family: sans-serif;
+}*{
+   padding: 0;
+   margin: 0;
+ }
+header,footer{
+  position: absolute;
+  background-color: #000;
+  Width: 100%
 }
-h1{
-  font-size: 28px; 
-  text-align: center; 
-  color:#000000;
-  padding-top: 10px;
+header{
+  heigh: 192px;
 }
-h2{
-  font-size: 18px; 
-  padding-left: 500px;
-  padding-bottom: 10px;
-  text-align: left;
-  color:#000000;
+footer{
+  heigh: 200px;
 }
 
