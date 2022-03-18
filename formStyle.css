@@ -51,12 +51,13 @@ p {
   margin-left: 50px;
  }
 div.heading2{
-padding-top: 10px;
-margin-left: 30%;
-margin: center
+  padding-top: 10px;
+  margin-left: 30%;
+  margin: center
   font-size: 22px; 
   color:#000000;
   display: block;
+  font-size: 22px;
 }
  nav {
             height: 50px;
