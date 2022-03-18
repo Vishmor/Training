@@ -17,6 +17,14 @@ h3{
   display: block;
   margin-left: 30%;
 }
+h4{
+  font-size: 14px;
+  width: 50%;
+  align: center;
+  color:#000000;
+  display: block;
+  margin-left: 20%;
+}
 img {
    display: block;
    margin-left: auto;
@@ -25,7 +33,7 @@ img {
    }
  footer{
   outline-style: double;
-  width: 100%;
+  width: 90%;
   height: 20%;
   border: 1px solid #ffffff;
   padding-top: 10px;
@@ -35,7 +43,7 @@ img {
   margin-bottom: 20px;
 }
 footer p{
-  text-align: center;
+  text-align: center; 
   width: 100%;
 }
 .skip-link {
