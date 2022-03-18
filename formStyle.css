@@ -33,10 +33,12 @@ h5{
 }
 footer{
   outline-style: double;
+  width: 100%;
   border: 1px solid #ffffff;
 }
 footer p{
   text-align: auto;
+  width: 100%;
 }
 table{
   padding-left: 500px;
