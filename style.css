@@ -36,10 +36,11 @@ img {
    }
  footer{
   background-color: LightGray;
-  font-size: 20px; 
+  font-size: 10px; 
   font-family: Verdana;
   text-align: center; 
   color:#000000;
+  height: 50px;
 }
 .skip-link {
    position: absolute;
