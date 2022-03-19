@@ -85,7 +85,8 @@ div.ing{
   text-align: auto;
 }
  nav {
-            height: 50px;
+     height: 50px;
+     background-color: LightGray;
      }
  nav ul {
             height: 50px;
