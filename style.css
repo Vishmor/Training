@@ -63,14 +63,14 @@ div.heading2{
   font-size: 22px; 
   color:#000000;
   display: block;
-  text-align: auto; 
+  text-align: center; 
 }
 h2{
   margin: center
   font-size: 22px; 
   color:#000000;
   display: block;
-  text-align: center; 
+  text-align: auto; 
 }
 div.ing{
   margin-left: 30%;
