@@ -35,7 +35,7 @@ img {
    margin-bottom: 50px;
    }
  footer{
-  background-color: LightGray;
+  background-color: #F2F2F2;
   font-size: 20px; 
   font-family: Verdana;
   text-align: center; 
@@ -80,7 +80,7 @@ div.ing{
 }
 nav {
      height: 50px;
-     background-color: LightGray;
+     background-color: #F2F2F2;
      }
 nav ul {
      height: 50px;
