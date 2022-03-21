@@ -45,8 +45,9 @@ img {
 }
 .skip-link {
    position: absolute;
-   top: -40;
+   top: -10000;
    left: 0;
+   margin-bottom: 7px;
    background: lightGray;
    colour: white;
 }
