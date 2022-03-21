@@ -45,7 +45,13 @@ img {
 }
 .skip-link {
    position: absolute;
-   left: -10000px;
+   top: -40;
+   left: 0;
+   background: #BF1722;
+   colour: white;
+}
+.skip-link:focus {
+   top: 0;
 }
 a:hover {
   color: #2929FF;
