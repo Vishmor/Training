@@ -52,6 +52,7 @@ img {
 }
 .skip-link:focus {
    top: 0;
+   outline: 1px dotted #ffffff
 }
 a:hover {
   color: #2929FF;
