@@ -47,7 +47,7 @@ img {
    position: absolute;
    top: -40;
    left: 0;
-   background: #BF1722;
+   background: lightGray;
    colour: white;
 }
 .skip-link:focus {
