@@ -43,7 +43,7 @@ img {
 }
 .skip-link {
    position: absolute;
-   top: -10000;
+   top: -40px;
    left: 0;
    margin-bottom: 7px;
    background: lightGray;
