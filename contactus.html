@@ -1,105 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-     <meta charset="utf-8">
-     <title>Contact us</title>
-       <style>
-       * {
-            padding: 0;
-            margin: 0;
-       }
-       body {
-  font-family: sans-serif;
-}
-h1{
-  font-size: 28px; 
-  text-align: center; 
-  color:#000000;
-  padding-top: 10px;
-}
-h2{
-  font-size: 20px; 
-  padding-left: 500px;
-  padding-bottom: 10px;
-  text-align: left;
-}
-       nav {
-            height: 50px;
-       }
-       nav ul {
-            height: 50px;
-            padding-left: 570px;
-            width: 1300px;
-            margin: 0 auto;
-       }
-       nav ul li {
-            list-style-type:none;
-            width: 150px;
-            float: left;
-            text-align: center;
-       }
-       li a {
-            text-decoration: underline;
-            padding: 8px;
-            line-height: 50px;
-            display: block;
-       }
-        li a:hover {
-            text-decoration: none;
-            background-color: #d3d3d3;
-            padding:0px;
-       }
-       input[type=text], textarea {
-         width: 100%;
-         padding: 12px;
-         border: 1px solid #ffffff;
-         box-sizing: border-box;
-         font-size: 18px; 
-       }
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+  * {
+    padding: 0;
+    margin: 0;
+    }
+    input[type=text], textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ffffff;
+      box-sizing: border-box;
+      font-size: 18px; 
+    }
        input[type=submit] {
-         width:40%
-        background-color: #4CAF50;
+        background-color: #E5E5E5;
         color: #000000;
-        padding: 12px, 20px;
-        border: 1px solid #000000;
+        padding: 5px 10px;
         cursor: pointer;
         margin: 8px 0;
         font-size: 24px; 
-        style: font-weight: bold;
+        font-weight: bold;
+        border-radius: 3px;
+        box-sizing: border-box;
        }
        input[type=submit]:hover {
         background-color: #a9a9a9;
-        border: 1px solid #ffffff;
-        style: font-weight: bold;
+        border: 1px solid #000000;
+        font-weight: bold;
+        border-radius: 3px;
+        box-sizing: border-box;
         }
         .submission-form{
           border-radius : 5px;
           background-color: #f2f2f2;
           padding: 12px 20px;
          width: 50%;
+          margin-top: 0px;
        } 
          div {
          width: 100%;
          margin: 70px auto;
          }
-       footer{
-          text-align: center;
-          margin: 70px; 
-          outline-style: double;
-          border: 1px solid #ffffff;
-        }
          .skip-link {
-          position: absolute;
-          left: -10000px;
-         }
+             position: absolute;
+             top: -40PX;
+             left: 0;
+             background: lightGray;
+             colour: white;
+           margine-bottom: 3px;
+        }
+        .skip-link:focus {
+             top: 0;
+             outline: 1px dotted #000000
+        }
+        .message{
+          color: #0000FF;
+          margin-left: 0px;
+        }
 </style>
   </head>
   <body>
     <header>
-    <a class="skip-link" href="#main-content" class="skip-link">SKIP TO MAIN CONTENT</a>
-     </header>
-    <main id="main-content">
-          <h1>Please contact us</h1>
+     <a href="#main-content" class="skip-link" tabindex="-1">Skip to main content</a>
+  </header>
         <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -107,36 +75,40 @@ h2{
           <li><a href="summer.html">Summer</a></li>
           <li><a href="fall.html">Fall</a></li>
           <li><a href="winter.html">Winter</a></li>
-        <ul>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
       </nav>
-    <div class="submission-form" id="subForm">
-      <form action="#">
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" value="">
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" value="">
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" value="">
-        <label for="comment">Comment:</label>
-        <textarea id="comment" name="comment"></textarea>
-        <input type="submit" value="Submit" id="sendBtn">
-        <p id="successMsg"></p>
-      </form> 
+    <h1 id="main-content" style="margin-bottom:0px">Contact us</h1>
+    <div class="heading2"><h2 style="font-size:15px; margin-bottom:4px; margin-top:0px; margin-left:5%">Please fill out following information and send us your feedback.</h2></div>
+    <div class="heading2"><h3 style="font-size:12px; margin-bottom:3px; margin-top:10px; margin-left:5%">Asterisk * indicates required fields.</h3></div>
+    <div class="submission-form">
+      <form id="subForm">
+        <label for="firstName">First Name: <span style="color: black; font-weight: bold;">*</span></label>
+        <input type="text" id="firstName" name="firstName" value="" required/>
+        <label for="lastName">Last Name: <span style="color: black; font-weight: bold;">*</span></label>
+        <input type="text" id="lastName" name="lastName" value="" required />
+        <label for="email">Email: <span style="color: black; font-weight: bold;">*</span></label>
+        <input type="text" id="email" name="email" value="" required />
+        <label for="comment">Comment: <span style="color: black; font-weight: bold;">*</span></label>
+        <textarea id="comment" name="comment" required ></textarea>
+        <input type="submit" value="Submit" id="sendBtn"/>
+        <p class="message" id="successMsg"></p>
+     </form> 
      </div>
-    </main>
-    <footer>
-      <p>Copied from CBC Life</p>
-      <p>Toronto, Canada</p>
-    </footer>
     <script>
       var myform = document.getElementById('subForm')
-      var successM = "Thank you for your feedback."
-      var successText = fName +"," + successM 
-
-      myform.addEventListener('#sendBtn',function(event){
-          event.preventDefault()
-          document.getElementById('successMsg').innerHTML= successText;
+      var successM = " thank you for your feedback."
+          myform.addEventListener('submit',function(event){
+              event.preventDefault()
+              var fName = document.getElementById('firstName').value
+              var lName = document.getElementById('lastName').value
+              console.log('Test')
+              var successText = fName + ' ' + lName + successM 
+              document.getElementById('successMsg').innerHTML= successText;
       })
-  </script>
+   </script>
+   <footer>
+      <p>The content is copied from CBC Life - Toronto, Canada</p>
+   </footer>       
   </body>
 </html>
