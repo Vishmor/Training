@@ -90,14 +90,16 @@
     <div class="submission-form">
       <form id="subForm">
         <label for="firstName">First Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="text" id="firstName" name="firstName" aria-required="true"/>
+        <input type="text" id="firstName" name="firstName" required/>
         <label for="lastName">Last Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
         <input type="text" id="lastName" name="lastName" required />
         <label for="email">Email: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="text" id="email" name="email" aria-required="true" aria-describedby="email-help"/>
+        <input type="text" id="email" name="email" required aria-describedby="email-help"/>
         <p id="email-help" aria-hidden="true">Email should follow the format example@email.com.</p>
+        <label for="phone">Phone Number: [optional]</label>
+        <input type="text" id="phone" name="phone"/>
         <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <textarea id="comment" name="comment" aria-required="true"></textarea>
+        <textarea id="comment" name="comment" required></textarea>
         <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
         <section role="status">
             <p class="message" id="successMsg"></p>
