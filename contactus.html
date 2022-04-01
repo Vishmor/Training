@@ -94,12 +94,12 @@
         <label for="lastName">Last Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
         <input type="text" id="lastName" name="lastName" aria-required="true"/>
         <label for="email">Email: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="email" id="email" name="email" aria-required="true" aria-describedby="email-help"/>
+        <input type="text" id="email" name="email" aria-required="true" aria-describedby="email-help"/>
         <p id="email-help" aria-hidden="true">Email should follow the format testemail@test.com.</p>
         <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
         <textarea id="comment" name="comment" aria-required="true"></textarea>
         <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
-        <p class="message" id="successMsg"></p>
+        <p class="message" id="successMsg" tabindex="1"></p>
      </form> 
      </div>
     <script>
