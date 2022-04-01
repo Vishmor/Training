@@ -61,8 +61,10 @@
         .message{
           color: #0000FF;
           margin-left: 0px;
+          font-weight: 900;
+          font: italic bold 12px/30px Georgia, serif;
         }
-        #email-help{
+        #email-help, #comment-help {
           padding-top: 0px;
           margin-left: 0px;
           font-size: 13px;
@@ -99,7 +101,8 @@
         <label for="phone">Phone Number: [optional]</label>
         <input type="text" id="phone" name="phone"/>
         <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <textarea id="comment" name="comment" required></textarea>
+        <textarea id="comment" name="comment" required aria-describedby="comment-help></textarea>
+        <p id="comment-help" aria-hidden="true">Please summarise your feedback in 60 characters or less.</p>
         <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
         <section role="status">
             <p class="message" id="successMsg"></p>
