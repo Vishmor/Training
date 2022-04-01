@@ -90,18 +90,18 @@
     <div class="submission-form">
       <form id="subForm">
         <label for="firstName">First Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="text" id="firstName" name="firstName" required>
+        <input type="text" id="firstName" name="firstName" aria-required="true>
         <label for="lastName">Last Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="text" id="lastName" name="lastName" aria-required="true"/>
+        <input type="text" id="lastName" name="lastName" aria-required="true">
         <label for="email">Email: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="text" id="email" name="email" aria-required="true" aria-describedby="email-help"/>
-        <p id="email-help" aria-hidden="true">Email should follow the format testemail@test.com.</p>
+        <input type="text" id="email" name="email" aria-required="true" aria-describedby="email-help">
+        <p id="email-help" aria-hidden="true">Email should follow the format example@email.com.</p>
         <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
         <textarea id="comment" name="comment" aria-required="true"></textarea>
-        <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
-        <p class="message" id="successMsg" tabindex="1"></p>
+        <button type="submit" id="sendBtn" name="sendBtn" >Submit</button>
+        <p class="message" id="successMsg"></p>
      </form> 
-     </div>
+   </div>
     <script>
       var myform = document.getElementById('subForm')
       var successM = " thank you for your feedback."
@@ -109,7 +109,6 @@
               event.preventDefault()
               var fName = document.getElementById('firstName').value
               var lName = document.getElementById('lastName').value
-              console.log('Test')
               var successText = fName + ' ' + lName + successM 
               document.getElementById('successMsg').innerHTML= successText;
       })
