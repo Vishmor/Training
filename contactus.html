@@ -90,7 +90,7 @@
     <div class="submission-form">
       <form id="subForm">
         <label for="firstName">First Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="text" id="firstName" name="firstName" aria-required="true/>
+        <input type="text" id="firstName" name="firstName" aria-required="true"/>
         <label for="lastName">Last Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
         <input type="text" id="lastName" name="lastName" aria-required="true"/>
         <label for="email">Email: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
@@ -99,7 +99,9 @@
         <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
         <textarea id="comment" name="comment" aria-required="true"></textarea>
         <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
-        <p class="message" id="successMsg"></p>
+        <div role="status">
+          <p class="message" id="successMsg"></p>
+        </div>
      </form> 
    </div>
     <script>
