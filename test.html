@@ -91,18 +91,28 @@
     <div class="heading2"><h3 style="font-size:12px; margin-bottom:3px; margin-top:10px; margin-left:5%" aria-hidden="true">Asterisk * indicates required fields.</h3></div>
     <div class="submission-form">
       <form id="subForm">
-        <label for="firstName">First Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="text" id="firstName" name="firstName" required/>
-        <label for="lastName">Last Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="text" id="lastName" name="lastName" required />
-        <label for="email">Email: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <input type="text" id="email" name="email" required aria-describedby="email-help"/>
-        <p id="email-help" aria-hidden="true">Email should follow the format example@email.com.</p>
-        <label for="phone">Phone Number: [optional]</label>
-        <input type="text" id="phone" name="phone"/>
-        <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-        <textarea id="comment" name="comment" required aria-describedby="comment-help"></textarea>
-        <p id="comment-help" aria-hidden="true">Please summarise your feedback in 60 characters or less.</p>
+        <div class="form-container">
+          <label for="firstName">First Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+          <input type="text" id="firstName" name="firstName" required/>
+        </div>
+        <div class="form-container">
+          <label for="lastName">Last Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+          <input type="text" id="lastName" name="lastName" required />
+        </div>
+        <div class="form-container">
+          <label for="email">Email: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+          <input type="text" id="email" name="email" required aria-describedby="email-help"/>
+          <p id="email-help" aria-hidden="true">Email should follow the format example@email.com.</p>
+        </div>
+        <div class="form-container">
+          <label for="phone">Phone Number: [optional]</label>
+          <input type="text" id="phone" name="phone"/>
+        </div>
+        <div class="form-container">
+          <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+          <textarea id="comment" name="comment" required aria-describedby="comment-help"></textarea>
+          <p id="comment-help" aria-hidden="true">Please summarise your feedback in 60 characters or less.</p>
+        </div>
         <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
         <!-- <aside role="status"> -->
             <p role="status" class="message" id="successMsg"></p>
