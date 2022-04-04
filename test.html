@@ -1,192 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Summer food recipes</title>
-     <style>
-       * {
-            padding: 0;
-            margin: 0;
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+  * {
+    padding: 0;
+    margin: 0;
+    }
+    input[type=text], textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ffffff;
+      box-sizing: border-box;
+      font-size: 18px; 
+    }
+       #sendBtn {
+        background-color: #E5E5E5;
+        color: #000000;
+        padding: 5px 10px;
+        cursor: pointer;
+        margin: 8px 0;
+        font-size: 24px; 
+        font-weight: bold;
+        border-radius: 3px;
+        box-sizing: border-box;
        }
-       h1{
-  font-size: 28px; 
-  font-family: arial;
-  text-align: center; 
-  color:#000000;
-  padding-top: 10px;
-}
-h2{
-padding-top: 10px;
-  font-size: 22px; 
-  color:#000000;
-  display: block;
-  margin-left: 0px;
-}
-h3{
-  font-size: 18px;
-  padding-left: 60px;
-  text-align: left;
-  color:#000000;
-}
-       img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 50px;
-       }
-       nav {
-            height: 50px;
-            width: 100%;
-       }
-       nav ul {
-            height: 50px;
-            padding-left: 50px;
-            margin: 0 auto;
-            width: 100%;
-            
-       }
-       nav ul li {
-            list-style-type:none;
-            float: left;
-            width: 100%
-            text-align: auto;
-       }
-       li a {
-            text-decoration: underline;
-            line-height: 50px;
-            padding: 8px;
-            display: block;
-            margin-left: 60px;
-       }
-      li a:hover {
-            text-decoration: none;
-            background-color: #d3d3d3;
-            padding:0px;
-       }
-       ul1 li {
-            text-align: left;
-            padding-left: 70px;
-       }
-       #recipe {
-              font-family: sans-serif;
-              border-collapse: collapse;
-              width: 50%;
-              align: center;
-              }
-        #recipe td, #recipe th {
-              border: 1px solid #ddd;
-              padding: 8px;
-            }
-        #recipe tr:nth-child(even){background-color: #f2f2f2;}
-        #recipe th {
-              padding-top: 10px;
-              padding-bottom: 10px;
-              text-align: left;
-              }
-       table {
-              margin: 10px auto;
-                     }
-        .skip-link {
-              position: absolute;
-              left: -10000px;
-              }
-       div.Description{
-               padding: 10px;
-  width: 80%;
-  height: 20%;
-   margin-right: 20px;
-  margin-left: 100px;
-                text-align: auto; 
+       #sendBtn:hover, #sendBtn:focus {
+        background-color: #a9a9a9;
+        border: 1px solid #000000;
+        font-weight: bold;
+        border-radius: 3px;
+        box-sizing: border-box;
+        }
+        .submission-form{
+          border-radius : 5px;
+          background-color: #f2f2f2;
+          padding: 12px 20px;
+         width: 50%;
+          margin-top: 0px;
+       } 
+         div {
+         width: 100%;
+         margin: 70px auto;
          }
-         div.fullLink{
-               padding: 10px;
-  width: 80%;
-  height: 20%;
-   margin-right: 50px;
-  margin-left: 50px;
-                text-align: auto; 
-         }
-         footer{
-  outline-style: double;
-  width: 95%;
-  height: 20%;
-  border: 1px solid #ffffff;
-padding-top: 10px;
-margin-top: 40px;
-margin-right: 40px;
-margin-left: 30px;
-margin-bottom: 20px;
-}
-footer p{
-  text-align: center;
-  width: 100%;
-}
-div.heading2{
-padding-top: 10px;
-margin-left: 30%;
-margin: center
-  font-size: 22px; 
-  color:#000000;
-  display: block;
-}
-         
-       </style>
+         .skip-link {
+             position: absolute;
+             top: -40PX;
+             left: 0;
+             background: lightGray;
+             color: white;
+             margin-bottom: 3px;
+        }
+        .skip-link:focus {
+             top: 0;
+             outline: 1px dotted #000000
+        }
+        .message{
+          color: #0550c8;
+          margin-left: 0px;
+          font-weight: 900;
+          font: bold 15px/30px Georgia, serif;
+        }
+        #email-help, #comment-help {
+          padding-top: 0px;
+          margin-left: 0px;
+          font-size: 13px;
+          margin-bottom: 20px;
+        }
+</style>
   </head>
-  <body> <header>
-    <a class="skip-link" href="#main-content" class="skip-link">SKIP TO MAIN CONTENT</a>
-     </header>
-    <main id="main-content">
-    <h1>Symbolic and vibrant treats fit for special celebration of summer</h1>
-       <nav>
+  <body>
+    <header>
+     <a href="#main-content" class="skip-link" tabindex="-1">Skip to main content</a>
+  </header>
+        <nav>
         <ul>
-          <li><a href="index.html"><div>Home</div></a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="spring.html">Spring</a></li>
           <li><a href="summer.html">Summer</a></li>
           <li><a href="fall.html">Fall</a></li>
           <li><a href="winter.html">Winter</a></li>
           <li><a href="contactus.html">Contact Us</a></li>
-        <ul>
+        </ul>
       </nav>
-       <div class="heading2"><h2>Flourless Lemon Ricotta Cake with Almonds</h2></div>
-      <div class="Description">Almond flour and almond meal both work well in this recipe. Almond flour is made from blanched and peeled raw almonds, and has a very pale, unified colour.Almond meal is made from unpeeled raw almonds, which makes a speckle-coloured flour that gives baked goods a darker appearance. You can make your own using a high-power food processor or blender: working in small batches, blitz almonds until a fine dust is achieved (stop before it turns to nut butter).Sift into a container and return any almond bits back to the food processor to re-blitz. Store in the freezer, in an airtight container, for up to three months.</div>
-      <h3>Ingredients</h3>
-      <ul1>
-        <li>½ cup butter, softened</li>
-        <li>1 ⅓ cups icing sugar, divided</li>
-        <li>2 tbsp lemon extract*</li>
-        <li>1 tsp vanilla extract</li>
-        <li>4 eggs, separated and at room temperature</li>
-        <li>2 ½ cups almond meal or almond flour</li>
-        <li>1 ¼ cups whole milk smooth ricotta</li>
-        <li>½ cup sliced natural almonds</li>
-      </ul1>  
-      <div class="fullLink"><a href="https://www.cbc.ca/life/food/flourless-lemon-ricotta-cake-with-almonds-1.5567882">For full recipe click on this link.</a></div>
-    <h3>More summer recipes</h3>
-      <table id="recipe" padding-left="10px";>
-      <tr>
-        <th>Name</th>
-        <th>Link to recipe</th>
-      </tr>
-      <tr>
-        <td>Fudgy Brownie Cookies</td>
-        <td><a href="https://www.cbc.ca/life/food/fudgy-brownie-cookies-1.5568281">Preparation instructions for Fudgy Brownie Cookies</a></td>
-      </tr>
-      <tr>
-        <td>Hazelnut Espresso Millionaire Bars</td>
-        <td><a href="https://www.cbc.ca/life/food/hazelnut-espresso-millionaire-bars-1.5565215">Preparation instructions for Hazelnut Espresso Millionaire Bars</a></td>
-      </tr>
-      <tr>
-        <td>Orange-Scented Date Crumb Bars</td>
-        <td><a href="https://www.cbc.ca/life/food/orange-scented-date-crumb-bars-1.5568304">Preparation instructions for Orange-Scented Date Crumb Bars</a></td>
-      </tr>
-      <tr>
-        <td>Buttermilk Pancakes</td>
-        <td><a href="https://www.cbc.ca/life/food/rise-and-shine-it-s-time-to-make-buttermilk-pancakes-1.5042653">Preparation instructions for Buttermilk Pancakes</a></td>
-      </tr>
-     </table>
-    <footer>
-      <p>Copied from CBC Life - Toronto, Canada</p>
-    </footer>
+    <h1 id="main-content" style="margin-bottom:0px">Contact us</h1>
+    <div class="heading2"><h2 style="font-size:15px; margin-bottom:4px; margin-top:0px; margin-left:5%">Please fill out following information and send us your feedback.</h2></div>
+    <div class="heading2"><h3 style="font-size:12px; margin-bottom:3px; margin-top:10px; margin-left:5%" aria-hidden="true">Asterisk * indicates required fields.</h3></div>
+    <div class="submission-form">
+      <form id="subForm">
+        <label for="firstName">First Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+        <input type="text" id="firstName" name="firstName" required/>
+        <label for="lastName">Last Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+        <input type="text" id="lastName" name="lastName" required />
+        <label for="email">Email: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+        <input type="text" id="email" name="email" required aria-describedby="email-help"/>
+        <p id="email-help" aria-hidden="true">Email should follow the format example@email.com.</p>
+        <label for="phone">Phone Number: [optional]</label>
+        <input type="text" id="phone" name="phone"/>
+        <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+        <textarea id="comment" name="comment" required aria-describedby="comment-help"></textarea>
+        <p id="comment-help" aria-hidden="true">Please summarise your feedback in 60 characters or less.</p>
+        <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
+        <!-- <aside role="status"> -->
+            <p role="status" class="message" id="successMsg"></p>
+        <!-- </aside>  -->
+     </form> 
+   </div>
+    <script>
+      var myform = document.getElementById('subForm')
+      var successM = " Your feedback has been received, thank you!"
+          myform.addEventListener('submit',function(event){
+              event.preventDefault()
+              var fName = document.getElementById('firstName').value
+              var lName = document.getElementById('lastName').value
+              var successText = fName + ' ' + lName + successM 
+              document.getElementById('successMsg').innerHTML= successText;
+      })
+   </script>
+   <footer>
+      <p>The content is copied from CBC Life - Toronto, Canada</p>
+   </footer>       
   </body>
 </html>
