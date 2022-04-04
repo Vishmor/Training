@@ -46,11 +46,11 @@ img {
    top: -40px;
    left: 0;
    margin-bottom: 7px;
-   color: #ffffff
+   padding-left: 500px;
 }
 .skip-link:focus {
    top: 0;
-   outline: 1px dotted #ffffff
+   color: #000000
 }
 a:hover {
   color: #2929FF;
