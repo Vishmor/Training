@@ -91,18 +91,16 @@ nav {
 nav ul {
      height: 50px;
      width: 600px;
-     margin-left: 0 auto;
      }
 nav ul li {
      list-style-type: none;
      display: inline-block;
-     margin: 5 5px;
+     margin: 5px;
     }
 li a {
     text-decoration: underline;
-    line-height: 50px;
     padding: 8px;
-    line-height: 50px;
+    line-height: 0px;
     display: block;
     }
 li a:hover, li a.focus {
