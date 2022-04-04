@@ -46,7 +46,7 @@ img {
    top: -40px;
    left: 0;
    margin-bottom: 7px;
-   padding-left: 500px;
+   padding-left: 0px;
 }
 .skip-link:focus {
    top: 0;
@@ -96,7 +96,7 @@ nav ul {
 nav ul li {
      list-style-type: none;
      display: inline-block;
-     margin: 5px;
+     margin: 15px;
     }
 li a {
     text-decoration: underline;
