@@ -119,10 +119,8 @@
           <p id="comment-help" aria-hidden="true">Please summarise your feedback in 60 characters or less.</p>
         </div>
         <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
-        <!-- <aside role="status"> -->
-            <p role="status" class="message" id="successMsg"></p>
-        <!-- </aside>  -->
-     </form> 
+        <p role="status" class="message" id="successMsg"></p>
+       </form> 
    </div>
     </main>
     <script>
@@ -134,7 +132,7 @@
               var lName = document.getElementById('lastName').value
               var successText = fName + ' ' + lName + successM 
               document.getElementById('successMsg').innerHTML= successText;
-      })
+          })
    </script>
    <footer id="footer-content">
       <p>Toronto, Canada</p>
