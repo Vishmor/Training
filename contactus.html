@@ -17,70 +17,70 @@
       box-sizing: border-box;
       font-size: 18px; 
     }
-       #sendBtn {
-        background-color: #E5E5E5;
-        color: #000000;
-        padding: 5px 10px;
-        cursor: pointer;
-        margin: 8px 0;
-        font-size: 24px; 
-        font-weight: bold;
-        border-radius: 3px;
-        box-sizing: border-box;
-       }
-       #sendBtn:hover, #sendBtn:focus {
-        background-color: #a9a9a9;
-        border: 1px solid #000000;
-        font-weight: bold;
-        border-radius: 3px;
-        box-sizing: border-box;
-        }
-        .submission-form{
-          border-radius : 5px;
-          background-color: #f2f2f2;
-          padding: 12px 20px;
-         width: 50%;
-          margin-top: 0px;
-       } 
-    .form-container{
-        padding: 0px;
-        margin: 10px;
+    #sendBtn {
+      background-color: #E5E5E5;
+      color: #000000;
+      padding: 5px 10px;
+      cursor: pointer;
+      margin: 8px 0;
+      font-size: 24px; 
+      font-weight: bold;
+      border-radius: 3px;
+      box-sizing: border-box;
     }
-         div {
-         width: 100%;
-         margin: 70px auto;
-         }
-         .skip-link {
-             position: absolute;
-             top: -40PX;
-             left: 0;
-             margin-bottom: 3px;
-             padding-left: 0px;
-        }
-        .skip-link:focus {
-             top: 0;
-             color: #000000;
-             border-style: none;
-        }
-        .message{
-          color: #0550c8;
-          margin-left: 0px;
-          font-weight: 900;
-          font: bold 15px/30px Georgia, serif;
-        }
-        #email-help, #comment-help {
-          padding-top: 0px;
-          margin-left: 0px;
-          font-size: 13px;
-          margin-bottom: 20px;
-        }
-</style>
-  </head>
-  <body>
+    #sendBtn:hover, #sendBtn:focus {
+      background-color: #a9a9a9;
+      border: 1px solid #000000;
+      font-weight: bold;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+    .submission-form{
+      border-radius : 5px;
+      background-color: #f2f2f2;
+      padding: 12px 20px;
+      width: 50%;
+      margin-top: 0px;
+    } 
+   .form-container{
+      padding: 0px;
+      margin: 10px;
+    }
+   div {
+      width: 100%;
+      margin: 70px auto;
+    }
+   .skip-link {
+      position: absolute;
+      top: -40PX;
+      left: 0;
+      margin-bottom: 3px;
+      padding-left: 0px;
+    }
+   .skip-link:focus {
+      top: 0;
+      color: #000000;
+      border-style: none;
+    }
+   .message{
+      color: #0550c8;
+      margin-left: 0px;
+      font-weight: 900;
+      font: bold 15px/30px Georgia, serif;
+    }
+    #email-help, #comment-help {
+      padding-top: 0px;
+      margin-left: 0px;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
     <header>
-     <a href="#main-content" class="skip-link" tabindex="0">Skip to main content</a>
-  </header>
-        <nav id="menu-content">
+      <a href="#main-content" class="skip-link" tabindex="0">Skip to main content</a>
+    </header>
+    <nav id="menu-content">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="spring.html">Spring</a></li>
@@ -89,41 +89,41 @@
           <li><a href="winter.html">Winter</a></li>
           <li><a href="contactus.html">Contact Us</a></li>
         </ul>
-      </nav>
+    </nav>
     <main id="main-content">
-    <h1 style="margin-bottom:0px">Contact us</h1>
-    <div class="heading2"><h2 style="font-size:15px; margin-bottom:4px; margin-top:0px; margin-left:5%">Please fill out following information and send us your feedback.</h2></div>
-    <div class="heading2"><h3 style="font-size:12px; margin-bottom:3px; margin-top:10px; margin-left:5%" aria-hidden="true">Asterisk * indicates required fields.</h3></div>
-    <div class="submission-form">
-      <form id="subForm">
-        <div class="form-container">
-          <label for="firstName">First Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-          <input type="text" id="firstName" name="firstName" required/>
-        </div>
-        <div class="form-container">
-          <label for="lastName">Last Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-          <input type="text" id="lastName" name="lastName" required />
-        </div>
-        <div class="form-container">
-          <label for="email">Email: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-          <input type="text" id="email" name="email" required aria-describedby="email-help"/>
-          <p id="email-help" aria-hidden="true">Email should follow the format example@email.com.</p>
-        </div>
-        <div class="form-container">
-          <label for="phone">Phone Number: [optional]</label>
-          <input type="text" id="phone" name="phone"/>
-        </div>
-        <div class="form-container">
-          <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
-          <textarea id="comment" name="comment" required aria-describedby="comment-help"></textarea>
-          <p id="comment-help" aria-hidden="true">Please summarise your feedback in 60 characters or less.</p>
-        </div>
-        <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
-        <p role="status" class="message" id="successMsg"></p>
-       </form> 
-   </div>
-    </main>
-    <script>
+      <h1 style="margin-bottom:0px">Contact us</h1>
+      <div class="heading2"><h2 style="font-size:15px; margin-bottom:4px; margin-top:0px; margin-left:5%">Please fill out following information and send us your feedback.</h2></div>
+      <div class="heading2"><h3 style="font-size:12px; margin-bottom:3px; margin-top:10px; margin-left:5%" aria-hidden="true">Asterisk * indicates required fields.</h3></div>
+      <div class="submission-form">
+          <form id="subForm">
+            <div class="form-container">
+              <label for="firstName">First Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+              <input type="text" id="firstName" name="firstName" required/>
+            </div>
+            <div class="form-container">
+              <label for="lastName">Last Name: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+            <div class="form-container">
+              <label for="email">Email: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+              <input type="text" id="email" name="email" required aria-describedby="email-help"/>
+              <p id="email-help" aria-hidden="true">Email should follow the format example@email.com.</p>
+            </div>
+            <div class="form-container">
+              <label for="phone">Phone Number: [optional]</label>
+              <input type="text" id="phone" name="phone"/>
+            </div>
+            <div class="form-container">
+              <label for="comment">Comment: <span style="color: black; font-weight: bold;" aria-hidden="true">*</span></label>
+              <textarea id="comment" name="comment" required aria-describedby="comment-help"></textarea>
+              <p id="comment-help" aria-hidden="true">Please summarise your feedback in 60 characters or less.</p>
+            </div>
+            <button type="submit" id="sendBtn" name="sendBtn">Submit</button>
+            <p role="status" class="message" id="successMsg"></p>
+          </form> 
+    </div>
+  </main>
+  <script>
       var myform = document.getElementById('subForm')
       var successM = " Your feedback has been received, thank you!"
           myform.addEventListener('submit',function(event){
@@ -137,5 +137,5 @@
    <footer id="footer-content">
       <p>Toronto, Canada</p>
    </footer>       
-  </body>
+ </body>
 </html>
