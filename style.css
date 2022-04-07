@@ -114,4 +114,5 @@ table {
 .active, .link:hover {
     background-color: #666;
     color: white;
+    text-decoration: none;
     }
