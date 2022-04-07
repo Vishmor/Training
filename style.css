@@ -12,7 +12,6 @@ h1{
   font-family: Verdana;
   color:#000000;
   padding-top: 15px;
-  text-align: auto; 
 }
 h3{
   font-size: 22px;
@@ -73,6 +72,16 @@ div.heading2{
   font-size: 22px; 
   color:#000000;
   display: block;
+  margin-left: 0px;
+}
+div.heading3{
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 22px; 
+  color:#000000;
+  display: block;
+  margin-left: 203px;
 }
 h2{
   margin: center;
