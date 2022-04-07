@@ -47,13 +47,13 @@
         <a href="#main-content" class="skip-link" tabindex="-1">Skip to main content</a>
         <nav id="menu-content">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="spring.html">Spring</a></li>
-            <li><a href="summer.html">Summer</a></li>
-            <li><a href="fall.html">Fall</a></li>
-            <li><a href="winter.html" aria-selected="true">Winter</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-          </ul>
+          <li><a  class="link" href="index.html">Home</a></li>
+          <li><a  class="link" href="spring.html">Spring</a></li>
+          <li><a  class="link" href="summer.html">Summer</a></li>
+          <li><a  class="link" href="fall.html">Fall</a></li>
+          <li><a  class="link active" href="winter.html">Winter</a></li>
+          <li><a  class="link" href="contactus.html">Contact Us</a></li>
+        </ul>
         </nav>
       </header>
      <main id="main-content">
@@ -100,6 +100,18 @@
       </tr>
     </table>
     </main>
+    <script>
+        // Add active class to the current button (highlight it)
+        var mainMenu = document.getElementById("menu-content");
+        var myLink = mainMenu.getElementsByClassName("link");
+        for (var i = 0; i < myLink.length; i++) {
+          myLink[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+    </script>
      <footer id="footer-content">
       <p>Toronto, Canada</p>
     </footer>
