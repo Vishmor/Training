@@ -18,22 +18,20 @@
       font-size: 18px; 
     }
     #sendBtn {
-      background-color: #E5E5E5;
-      color: #000000;
+      background-color: #2572b4;
+      color: white;
       padding: 5px 10px;
       cursor: pointer;
       margin: 8px 0;
       font-size: 24px; 
-      font-weight: bold;
-      border-radius: 3px;
       box-sizing: border-box;
+      border-color:#143c5f;
     }
     #sendBtn:hover, #sendBtn:focus {
-      background-color: #a9a9a9;
-      border: 1px solid #000000;
-      font-weight: bold;
-      border-radius: 3px;
+      background-color: #1c578a;
+      border-color: #091c2d;
       box-sizing: border-box;
+      color: white;
     }
     .submission-form{
       border-radius : 5px;
@@ -97,24 +95,24 @@
       <div class="submission-form">
           <form id="subForm" autocomplete="on">
             <div class="form-container">
-              <label for="firstName"><span style="color: red; font-weight: bold;">*</span> First Name: <span style="color: red; font-weight: bold; font-size:12px;">(required)</span></label>
+              <label for="firstName"><span style="color: red; font-weight: bold;">*</span> First Name: <span style="color: red; font-weight: bold; font-size:16px;">(required)</span></label>
               <input type="text" id="firstName" name="firstName"/>
             </div>
             <div class="form-container">
-              <label for="lastName">Last Name: <span style="color: black; font-weight: bold; font-size:12px;">[required]</span></label>
+              <label for="lastName"><span style="color: red; font-weight: bold;">*</span> Last Name: <span style="color: red; font-weight: bold; font-size:16px;">(required)</span></label>
               <input type="text" id="lastName" name="lastName"/>
             </div>
             <div class="form-container">
-              <label for="email">Email: <span style="color: black; font-weight: bold; font-size:12px;">[required]</span></label>
+              <label for="email"><span style="color: red; font-weight: bold;">*</span> Email: <span style="color: red; font-weight: bold; font-size:16px;">(required)</span></label>
               <input type="text" id="email" name="email" aria-describedby="email-help"/>
               <p id="email-help" aria-hidden="true">Email should follow the format example@email.com.</p>
             </div>
             <div class="form-container">
-              <label for="phone">Phone Number: <span style="color: black; font-weight: bold; font-size:12px;">[optional]</span></label>
+              <label for="phone">Phone Number: </label>
               <input type="text" id="phone" name="phone"/>
             </div>
             <div class="form-container">
-              <label for="comment">Comment: <span style="color: black; font-weight: bold; font-size:12px;">[required]</span></label>
+              <label for="comment"><span style="color: red; font-weight: bold;">*</span> Comment: <span style="color: red; font-weight: bold; font-size:12px;">(required)</span></label>
               <textarea id="comment" name="comment" aria-describedby="comment-help"></textarea>
               <p id="comment-help">Please summarise your feedback in 60 characters or less.</p>
             </div>
